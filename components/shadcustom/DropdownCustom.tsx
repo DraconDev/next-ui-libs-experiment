@@ -13,7 +13,7 @@ const DropdownCustom = (props: Props) => {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger>Open</DropdownMenuTrigger>
-            <DropdownMenuContent>
+            <DropdownMenuContent className="bg-slate-300 p-1 rounded-md">
                 <DropdownMenuLabel>My Account</DropdownMenuLabel>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>Profile</DropdownMenuItem>
